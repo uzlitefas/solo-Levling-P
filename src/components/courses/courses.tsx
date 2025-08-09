@@ -70,8 +70,9 @@ const Courses: React.FC = () => {
           {courses.map((course, index) => (
             <div
               key={index}
-              className="bg-card rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 p-8 border hover:border-blue-500/50 transform hover:-translate-y-2"
+              className="flex flex-col justify-between bg-card rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 p-8 border hover:border-blue-500/50 transform hover:-translate-y-2"
             >
+              <div>
               <div className="mb-6">{course.icon}</div>
 
               <h3 className="text-2xl font-bold mb-4">{course.title}</h3>
@@ -115,8 +116,8 @@ const Courses: React.FC = () => {
                     </span>
                   ))}
                 </div>
-              </div>
-
+              </div></div>
+            <div className="">
               <div className="mb-6">
                 <div className="text-3xl font-bold">{course.price}</div>
                 <div className="text-sm text-muted-foreground">
@@ -127,6 +128,7 @@ const Courses: React.FC = () => {
               <button className="w-full bg-gradient-to-r from-blue-500 to-blue-600 text-white py-3 px-6 rounded-lg font-semibold hover:shadow-lg transform hover:-translate-y-1 transition-all duration-300">
                 {t("courses.enrollButton")}
               </button>
+            </div>
             </div>
           ))}
         </div>

@@ -8,7 +8,7 @@ const Hero: React.FC = () => {
   return (
     <section
       id="home"
-      className="pt-16 bg-gradient-to-br from-blue-50 to-blue-100 dark:from-blue-950 dark:to-blue-900 min-h-screen flex items-center"
+      className="pt-16 bg-gradient-to-br from-blue-50 to-blue-100 dark:from-blue-950/20 dark:to-blue-900 min-h-screen flex items-center"
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
         <div className="grid lg:grid-cols-2 gap-12 items-center">

@@ -84,20 +84,48 @@
     "quote": "Har bir o'quvchi bizning g'ururimiz!",
     "team": "Togaragim jamoasi"
   },
+
   "testimonials": {
-    "title": "O'quvchilarimiz fikri",
-    "subtitle": "Bizning bitiruvchilar nima deyishadi"
+    "text1": "Togaragim IT markazida o'qiganimdan keyin hayotim butunlay o'zgarib ketdi. Endi men professional dasturchi sifatida ishlayapman va o'z orzularimni amalga oshiryapman!",
+    "text2": "O'qituvchilarning professional yondashuvi va amaliy darslar tufayli men qisqa vaqt ichida ko'p narsalarni o'rgandim. Hamma narsani tushuntirib berishadi!",
+    "text3": "Eng yaxshi qarorm Togaragimni tanlash bo'ldi. Bu yerda nafaqat dasturlashni, balki real loyihalarda ishlashni ham o'rgandim. Rahmat!"
   },
   "footer": {
-    "description": "Professional web dasturchilar tayyorlashda ixtisoslashgan IT markazi. Zamonaviy texnologiyalar va amaliy yondashuv.",
+    "brand": "Togaragim",
+    "description": "Professional veb dasturchilar tayyorlashga ixtisoslashgan IT markazi. Zamonaviy texnologiyalar va amaliy yondashuv.",
+    "social": {
+      "facebook": "Facebook",
+      "instagram": "Instagram",
+      "linkedin": "LinkedIn",
+      "youtube": "YouTube"
+    },
     "quickLinks": "Tezkor havolalar",
+    "links": {
+      "home": "Bosh sahifa",
+      "courses": "Kurslar",
+      "about": "Biz haqimizda",
+      "blog": "Blog",
+      "portfolio": "Portfolio"
+    },
     "ourCourses": "Kurslarimiz",
+    "coursesList": {
+      "frontend": "Frontend Dasturlash",
+      "backend": "Backend Dasturlash",
+      "fullstack": "Full Stack Dasturlash",
+      "react": "React.js",
+      "node": "Node.js"
+    },
     "contactInfo": "Aloqa ma'lumotlari",
+    "address": "Zaribdor, IT markazi\nDavalat xizmatlari oldida",
+    "phones": ["+998 (90) 999-99-99", "+998 (90) 111-11-11"],
+    "emails": ["info@itCenter.uz", "support@itCenter.uz"],
     "workingHours": "Ish vaqti:",
-    "schedule": "Dushanba - Juma: 09:00 - 18:00\nShanba: 09:00 - 14:00\nYakshanba: Dam olish kuni",
-    "copyright": "© 2024 Togaragim IT markazi. Barcha huquqlar himoyalangan.",
+    "schedule": "Dushanba - Juma: 04:00 - 19:00\nShanba: 04:00 - 18:00\nYakshanba: Dam olish kuni",
     "privacy": "Maxfiylik siyosati",
     "terms": "Foydalanish shartlari",
-    "help": "Yordam"
+    "help": "Yordam",
+    "copyright": "© 2025 IT markazi. Barcha huquqlar himoyalangan.",
+    "Zarbdor": "Zarbdor, IT Markaz",
+    "davlat": "Davlat xizmatlari oldida"
   }
 }

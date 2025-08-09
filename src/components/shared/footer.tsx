@@ -9,21 +9,22 @@ import {
   Linkedin,
   Youtube,
 } from "lucide-react";
+import { useTranslation } from "react-i18next";
 
 const Footer: React.FC = () => {
+  const { t } = useTranslation();
+
   return (
-    <footer id="contact" className="bg-gray-900 text-white">
+    <footer id="contact" className="bg-gray-900 dark:bg-black text-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <div className="grid lg:grid-cols-4 md:grid-cols-2 gap-8">
-          {/* Company Info */}
           <div>
             <div className="flex items-center space-x-2 mb-6">
               <Code2 className="h-8 w-8 text-blue-400" />
               <span className="text-2xl font-bold">Togaragim</span>
             </div>
             <p className="text-gray-300 mb-6 leading-relaxed">
-              Professional web dasturchilar tayyorlashda ixtisoslashgan IT
-              markazi. Zamonaviy texnologiyalar va amaliy yondashuv.
+              {t("footer.description")}
             </p>
             <div className="flex space-x-4">
               <a
@@ -53,16 +54,17 @@ const Footer: React.FC = () => {
             </div>
           </div>
 
-          {/* Quick Links */}
           <div>
-            <h3 className="text-xl font-semibold mb-6">Tezkor havolalar</h3>
+            <h3 className="text-xl font-semibold mb-6">
+              {t("footer.quickLinks")}
+            </h3>
             <ul className="space-y-3">
               <li>
                 <a
                   href="#home"
                   className="text-gray-300 hover:text-blue-400 transition-colors duration-200"
                 >
-                  Bosh sahifa
+                  {t("nav.home")}
                 </a>
               </li>
               <li>
@@ -70,7 +72,7 @@ const Footer: React.FC = () => {
                   href="#courses"
                   className="text-gray-300 hover:text-blue-400 transition-colors duration-200"
                 >
-                  Kurslar
+                  {t("nav.courses")}
                 </a>
               </li>
               <li>
@@ -78,31 +80,16 @@ const Footer: React.FC = () => {
                   href="#about"
                   className="text-gray-300 hover:text-blue-400 transition-colors duration-200"
                 >
-                  Biz haqimizda
-                </a>
-              </li>
-              <li>
-                <a
-                  href="#"
-                  className="text-gray-300 hover:text-blue-400 transition-colors duration-200"
-                >
-                  Blog
-                </a>
-              </li>
-              <li>
-                <a
-                  href="#"
-                  className="text-gray-300 hover:text-blue-400 transition-colors duration-200"
-                >
-                  Portfolio
+                  {t("nav.about")}
                 </a>
               </li>
             </ul>
           </div>
 
-          {/* Courses */}
           <div>
-            <h3 className="text-xl font-semibold mb-6">Kurslarimiz</h3>
+            <h3 className="text-xl font-semibold mb-6">
+              {t("footer.ourCourses")}
+            </h3>
             <ul className="space-y-3">
               <li>
                 <a
@@ -148,17 +135,17 @@ const Footer: React.FC = () => {
           </div>
 
           <div>
-            <h3 className="text-xl font-semibold mb-6">Aloqa ma'lumotlari</h3>
+            <h3 className="text-xl font-semibold mb-6">
+              {t("footer.contactInfo")}
+            </h3>
             <div className="space-y-4">
               <div className="flex items-start space-x-3">
                 <MapPin className="h-5 w-5 text-blue-400 mt-1 flex-shrink-0" />
-                <div>
-                  <p className="text-gray-300">
-                    Zaribdor, It Center
-                    <br />
-                    Davalat hizmatlarining oldida
-                  </p>
-                </div>
+                <p className="text-gray-300">
+                  {t("footer.Zarbdor")}
+                  <br />
+                  {t("footer.davlat")}
+                </p>
               </div>
 
               <div className="flex items-center space-x-3">
@@ -177,14 +164,15 @@ const Footer: React.FC = () => {
                 </div>
               </div>
 
-              <div className="mt-6 p-4 bg-gray-800 rounded-lg">
-                <h4 className="font-semibold mb-2 text-blue-400">Ish vaqti:</h4>
-                <p className="text-sm text-gray-300">
-                  Dushanba - Juma: 04:00 - 19:00
-                  <br />
-                  Shanba: 04:00 - 18:00
-                  <br />
-                  Yakshanba: Dam olish kuni
+              <div className="mt-6 p-4 bg-black/15 dark:bg-blue-300/5 rounded-lg">
+                <h4 className="font-semibold mb-2 text-blue-400">
+                  {t("footer.workingHours")}
+                </h4>
+                <p
+                  className="text-sm text-gray-300"
+                  style={{ whiteSpace: "pre-line" }}
+                >
+                  {t("footer.schedule")}
                 </p>
               </div>
             </div>
@@ -193,27 +181,25 @@ const Footer: React.FC = () => {
 
         <div className="border-t border-gray-800 pt-8 mt-12">
           <div className="flex flex-col md:flex-row justify-between items-center">
-            <p className="text-gray-400 text-sm">
-              © 2025 IT Center markazi. Barcha huquqlar himoyalangan.
-            </p>
+            <p className="text-gray-400 text-sm">{t("footer.copyright")}</p>
             <div className="flex space-x-6 mt-4 md:mt-0">
               <a
                 href="#"
                 className="text-gray-400 hover:text-blue-400 text-sm transition-colors duration-200"
               >
-                Maxfiylik siyosati
+                {t("footer.privacy")}
               </a>
               <a
                 href="#"
                 className="text-gray-400 hover:text-blue-400 text-sm transition-colors duration-200"
               >
-                Foydalanish shartlari
+                {t("footer.terms")}
               </a>
               <a
                 href="#"
                 className="text-gray-400 hover:text-blue-400 text-sm transition-colors duration-200"
               >
-                Yordam
+                {t("footer.help")}
               </a>
             </div>
           </div>

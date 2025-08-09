@@ -1,7 +1,11 @@
 import React from "react";
-import { features, stats } from "@/constants";
+import { stats } from "@/constants";
+import { useTranslation } from "react-i18next";
 
 const About: React.FC = () => {
+  const { t } = useTranslation();
+  const features = ["teachers", "projects", "technologies", "employment"];
+
   return (
     <section
       id="about"
@@ -10,11 +14,10 @@ const About: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-foreground/90 mb-4">
-            Biz haqimizda
+            {t("about.title")}
           </h2>
           <p className="text-xl text-foreground/60 max-w-3xl mx-auto">
-            Togaragim IT markazi 2019 yildan beri professional web dasturchilar
-            tayyorlashda faoliyat yuritmoqda
+            {t("about.subtitle")}
           </p>
         </div>
 
@@ -30,7 +33,9 @@ const About: React.FC = () => {
               <div className="text-3xl font-bold text-foreground/90 mb-2">
                 {number}
               </div>
-              <div className="text-foreground/60">{label}</div>
+              <div className="text-foreground/60">
+                {t(`about.stats.${label}`)}
+              </div>
             </div>
           ))}
         </div>
@@ -38,13 +43,11 @@ const About: React.FC = () => {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div>
             <h3 className="text-3xl font-bold text-foreground/90 mb-6">
-              Nima uchun aynan Togaragim?
+              {t("about.whyUs")}
             </h3>
 
             <p className="text-lg text-foreground/60 mb-8 leading-relaxed">
-              Biz faqat nazariya emas, balki amaliy ko'nikmalarni o'rgatamiz.
-              Har bir o'quvchi kurs davomida o'z portfoliosini yaratadi va real
-              loyihalarda ishtirok etadi.
+              {t("about.description")}
             </p>
 
             <div className="space-y-6">
@@ -55,9 +58,11 @@ const About: React.FC = () => {
                   </div>
                   <div>
                     <h4 className="font-semibold text-foreground/90 mb-2">
-                      {feature.title}
+                      {t(`about.features.${feature}.title`)}
                     </h4>
-                    <p className="text-foreground/60">{feature.description}</p>
+                    <p className="text-foreground/60">
+                      {t(`about.features.${feature}.description`)}
+                    </p>
                   </div>
                 </div>
               ))}
@@ -68,29 +73,25 @@ const About: React.FC = () => {
             <div className="bg-background rounded-2xl shadow-2xl p-8">
               <div className="mb-6">
                 <h4 className="text-xl font-bold text-foreground/90 mb-4">
-                  Bizning missionimiz
+                  {t("about.mission.title")}
                 </h4>
                 <p className="text-foreground/60 leading-relaxed">
-                  O'zbekistonda IT sohasini rivojlantirishga hissa qo'shish va
-                  yoshlarimizni zamonaviy kasblar bilan ta'minlash.
+                  {t("about.mission.description")}
                 </p>
               </div>
 
               <div className="mb-6">
                 <h4 className="text-xl font-bold text-foreground/90 mb-4">
-                  Bizning vizionimiz
+                  {t("about.vision.title")}
                 </h4>
                 <p className="text-foreground/60 leading-relaxed">
-                  Mintaqaning eng yaxshi IT ta'lim markazi bo'lish va xalqaro
-                  standartlarga mos mutaxassislar tayyorlash.
+                  {t("about.vision.description")}
                 </p>
               </div>
 
               <div className="bg-gradient-to-r from-blue-600 to-purple-600 rounded-lg p-4 text-white">
-                <p className="font-semibold">
-                  "Har bir o'quvchi bizning g'ururimiz!"
-                </p>
-                <p className="text-sm opacity-90 mt-1">- Togaragim jamoasi</p>
+                <p className="font-semibold">{t("about.quote")}</p>
+                <p className="text-sm opacity-90 mt-1">- {t("about.team")}</p>
               </div>
             </div>
 
