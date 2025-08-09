@@ -1,0 +1,103 @@
+{
+  "nav": {
+    "home": "Bosh sahifa",
+    "courses": "Kurslar",
+    "about": "Biz haqimizda",
+    "contact": "Aloqa"
+  },
+  "hero": {
+    "title": "Web dasturlashni",
+    "titleHighlight": "professional",
+    "titleEnd": "darajada o'rganing",
+    "description": "Togaragim IT markazida zamonaviy web texnologiyalarini o'rganing va professional dasturchi bo'ling. Amaliy loyihalar, tajribali o'qituvchilar va zamonaviy dasturlash tillari sizni kutmoqda.",
+    "enrollButton": "Kursga yozilish",
+    "watchVideo": "Video ko'rish"
+  },
+  "courses": {
+    "title": "Bizning Kurslarimiz",
+    "subtitle": "Professional web dasturchi bo'lish uchun zarur bo'lgan barcha texnologiyalarni o'rganing",
+    "frontend": {
+      "title": "Frontend Development",
+      "description": "HTML, CSS, JavaScript va React.js orqali zamonaviy web interfeyslari yaratishni o'rganing.",
+      "duration": "4 oy",
+      "students": "120+ o'quvchi",
+      "level": "Boshlang'ich",
+      "price": "800,000 so'm"
+    },
+    "backend": {
+      "title": "Backend Development",
+      "description": "Node.js, Express.js va MongoDB yordamida server tomonini yaratishni o'rganing.",
+      "duration": "3 oy",
+      "students": "85+ o'quvchi",
+      "level": "O'rta",
+      "price": "900,000 so'm"
+    },
+    "fullstack": {
+      "title": "Full Stack Development",
+      "description": "Frontend va Backend texnologiyalarini birgalikda o'rganib, to'liq web ilovalar yarating.",
+      "duration": "6 oy",
+      "students": "95+ o'quvchi",
+      "level": "Professional",
+      "price": "1,500,000 so'm"
+    },
+    "technologies": "O'rganadigan texnologiyalar:",
+    "enrollButton": "Kursga yozilish",
+    "perMonth": "oyiga"
+  },
+  "about": {
+    "title": "Biz haqimizda",
+    "subtitle": "Togaragim IT markazi 2019 yildan beri professional web dasturchilar tayyorlashda faoliyat yuritmoqda",
+    "stats": {
+      "graduates": "Bitiruvchilar",
+      "courses": "Kurslar",
+      "experience": "Yillik tajriba",
+      "employment": "Ishga joylashuv"
+    },
+    "whyUs": "Nima uchun aynan Togaragim?",
+    "description": "Biz faqat nazariya emas, balki amaliy ko'nikmalarni o'rgatamiz. Har bir o'quvchi kurs davomida o'z portfoliosini yaratadi va real loyihalarda ishtirok etadi.",
+    "features": {
+      "teachers": {
+        "title": "Tajribali o'qituvchilar",
+        "description": "5+ yillik amaliy tajribaga ega professional dasturchilar sizga o'rgatadi"
+      },
+      "projects": {
+        "title": "Amaliy loyihalar",
+        "description": "Nazariya bilan birga real loyihalarda ishlab tajriba to'playsiz"
+      },
+      "technologies": {
+        "title": "Zamonaviy texnologiyalar",
+        "description": "Eng so'nggi va talabga ega bo'lgan dasturlash texnologiyalarini o'rganasiz"
+      },
+      "employment": {
+        "title": "Ishga joylashishda yordam",
+        "description": "Kurs tugagach ishga joylashish va resume yozishda to'liq qo'llab-quvvatlaymiz"
+      }
+    },
+    "mission": {
+      "title": "Bizning missionimiz",
+      "description": "O'zbekistonda IT sohasini rivojlantirishga hissa qo'shish va yoshlarimizni zamonaviy kasblar bilan ta'minlash."
+    },
+    "vision": {
+      "title": "Bizning vizionimiz",
+      "description": "Mintaqaning eng yaxshi IT ta'lim markazi bo'lish va xalqaro standartlarga mos mutaxassislar tayyorlash."
+    },
+    "quote": "Har bir o'quvchi bizning g'ururimiz!",
+    "team": "Togaragim jamoasi"
+  },
+  "testimonials": {
+    "title": "O'quvchilarimiz fikri",
+    "subtitle": "Bizning bitiruvchilar nima deyishadi"
+  },
+  "footer": {
+    "description": "Professional web dasturchilar tayyorlashda ixtisoslashgan IT markazi. Zamonaviy texnologiyalar va amaliy yondashuv.",
+    "quickLinks": "Tezkor havolalar",
+    "ourCourses": "Kurslarimiz",
+    "contactInfo": "Aloqa ma'lumotlari",
+    "workingHours": "Ish vaqti:",
+    "schedule": "Dushanba - Juma: 09:00 - 18:00\nShanba: 09:00 - 14:00\nYakshanba: Dam olish kuni",
+    "copyright": "© 2024 Togaragim IT markazi. Barcha huquqlar himoyalangan.",
+    "privacy": "Maxfiylik siyosati",
+    "terms": "Foydalanish shartlari",
+    "help": "Yordam"
+  }
+}
