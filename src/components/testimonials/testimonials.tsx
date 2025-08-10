@@ -7,7 +7,7 @@ const Testimonials: React.FC = () => {
     <section className="py-20 bg-background">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-foreground/90 mb-4">
+          <h2 className="text-3xl min-lg:text-4xl font-bold text-foreground/90 mb-4">
             O'quvchilarimiz fikri
           </h2>
           <p className="text-xl text-foreground/60">
@@ -27,7 +27,7 @@ const Testimonials: React.FC = () => {
                 </div>
 
                 <p className="text-foreground/60 mb-6 leading-relaxed text-lg">
-                  "{testimonial.text}"
+                  {testimonial.text}
                 </p>
               </div>
               <div className="">

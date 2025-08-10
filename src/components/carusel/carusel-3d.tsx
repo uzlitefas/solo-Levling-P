@@ -103,7 +103,6 @@ export const Carousel3D: React.FC<CarouselProps> = ({
 
   return (
     <>
-      {/* Fullscreen Modal */}
       {fullscreenImage && (
         <div className="fixed inset-0 z-50 bg-black/90 backdrop-blur-sm flex items-center justify-center">
           <Button
@@ -135,8 +134,8 @@ export const Carousel3D: React.FC<CarouselProps> = ({
         onMouseEnter={() => setIsHovered(true)}
         onMouseLeave={() => setIsHovered(false)}
       >
-        <div className="absolute inset-0 bg-gradient-to-br from-background/90 via-blue-700 to-background/90" />
-        <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent" />
+        <div className="absolute inset-0 bg-gradient-to-br from-background dark:via-blue-800 via-blue-400 to-background" />
+        <div className="absolute inset-0 bg-gradient-to-t from-background/20 to-transparent" />
 
         <div
           className="relative w-full h-full flex items-center justify-center"
@@ -261,10 +260,10 @@ export const Carousel3D: React.FC<CarouselProps> = ({
         )}
 
         <div className="absolute bottom-16 right-4 z-30 text-right">
-          <h2 className="text-white text-2xl font-bold mb-2">
+          <h2 className="text-foreground text-2xl font-bold mb-2">
             {items[currentIndex]?.title}
           </h2>
-          <p className="text-white/80 text-sm max-w-xs">
+          <p className="text-foreground/80 text-sm max-w-xs">
             {items[currentIndex]?.description}
           </p>
         </div>

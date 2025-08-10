@@ -12,6 +12,7 @@ const Home = () => {
       <Hero />
       <Courses />
       <About />
+
       <Carousel3D
         items={carouselItems}
         autoPlay={true}

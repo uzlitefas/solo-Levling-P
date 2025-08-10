@@ -39,7 +39,7 @@ const Hero: React.FC = () => {
             </div>
           </div>
 
-          <div className="relative">
+          <div className="relative max-[400px]:hidden">
             <div className="bg-card rounded-2xl shadow-2xl p-8 transform rotate-3 hover:rotate-0 transition-transform duration-500">
               <div className="bg-gray-900 dark:bg-gray-800 rounded-lg p-4 text-green-400 font-mono text-sm">
                 <div className="flex space-x-2 mb-2">
