@@ -75,58 +75,68 @@ export const features = [
 export const carouselItems = [
   {
     id: 1,
-    title: "Mountain Adventure",
+    title: "Web Coding",
     description:
-      "Experience breathtaking views and challenging trails in the heart of the mountains. Perfect for adventure seekers.",
-    image:
-      "https://images.pexels.com/photos/417074/pexels-photo-417074.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "Dasturchi bolish uchun yaratish kerak, organish kerak, izlanish kerak.",
+    image: "./assets/1.jpg",
     category: "Adventure",
     featured: true,
   },
   {
     id: 2,
-    title: "Ocean Paradise",
+    title: "Dasturlash",
     description:
-      "Discover pristine beaches and crystal-clear waters. Ideal for relaxation and water sports enthusiasts.",
-    image:
-      "https://images.pexels.com/photos/457882/pexels-photo-457882.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "Dasturlash ozi bu kodlar orqali kampiyuterga buyruq berib yangi narsa yaratish",
+    image: "./assets/2.jpg",
     category: "Beach",
   },
   {
     id: 3,
-    title: "City Lights",
+    title: "Kamanda bilan ishlash",
     description:
-      "Explore vibrant urban landscapes with modern architecture and bustling nightlife. A photographer's dream.",
-    image:
-      "https://images.pexels.com/photos/325185/pexels-photo-325185.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "Harqanday dasturchilarning oz jamosi bolishi kerak ,Jamo bilan ishlash juda tez va osson",
+    image: "./assets/3.jpg",
     category: "Urban",
   },
   {
     id: 4,
-    title: "Forest Serenity",
+    title: "Kampiyuter Sovothonligi",
     description:
-      "Find peace and tranquility among ancient trees and wildlife. Perfect for meditation and nature lovers.",
-    image:
-      "https://images.pexels.com/photos/132419/pexels-photo-132419.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "Harqanday dasturchi bilishi shart bolgan narsa bu kampiyuter sovot honligidir",
+    image: "./assets/4.jpg",
     category: "Nature",
     featured: true,
   },
   {
     id: 5,
-    title: "Desert Sunset",
+    title: "Codlar tartibi",
     description:
-      "Witness stunning sunsets over endless sand dunes. An unforgettable experience in the desert wilderness.",
-    image:
-      "https://images.pexels.com/photos/3599112/pexels-photo-3599112.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "Bizning dasturlashda kodlarni togri tartib bilan yoziladigan usulari bor , osha usulda kodlar tushunarli va chiroyli boladi",
+    image: "./assets/5.jpg",
     category: "Desert",
   },
   {
     id: 6,
-    title: "Alpine Lake",
+    title: "Backend",
     description:
-      "Discover hidden gems nestled high in the mountains. Crystal-clear waters reflecting snow-capped peaks.",
-    image:
-      "https://images.pexels.com/photos/1820770/pexels-photo-1820770.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "Backend bu server, Api, habarlar, userlar bilan ishlaydigan bolim",
+    image: "./assets/6.jpg",
+    category: "Mountains",
+  },
+  {
+    id: 7,
+    title: "HTML",
+    description:
+      "Hyper text markup languagem, bu asosan web saytimizni ustun qismi hisoblanadi",
+    image: "./assets/7.jpg",
+    category: "Mountains",
+  },
+  {
+    id: 8,
+    title: "IT",
+    description:
+      "bizning dasturlash guruhimizga qoshiling va koproq malumot organing",
+    image: "./assets/8.jpg",
     category: "Mountains",
   },
 ];

@@ -27,14 +27,18 @@ const Hero: React.FC = () => {
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-              <button className="bg-gradient-to-r from-blue-500 to-blue-600 text-white px-8 py-4 rounded-lg font-semibold text-lg hover:shadow-xl transform hover:-translate-y-1 transition-all duration-300 flex items-center justify-center gap-2">
-                {t("hero.enrollButton")}
-                <ArrowRight className="h-5 w-5" />
-              </button>
+              <a href={"#contact"}>
+                <button className="bg-gradient-to-r from-blue-500 to-blue-600 text-white px-8 py-4 rounded-lg font-semibold text-lg hover:shadow-xl transform hover:-translate-y-1 transition-all duration-300 flex items-center justify-center gap-2">
+                  {t("hero.enrollButton")}
+                  <ArrowRight className="h-5 w-5" />
+                </button>
+              </a>
 
               <button className="border-2 border-border text-foreground px-8 py-4 rounded-lg font-semibold text-lg hover:border-blue-500 hover:text-blue-500 transition-all duration-300 flex items-center justify-center gap-2">
                 <Play className="h-5 w-5" />
-                {t("hero.watchVideo")}
+                <a href="https://www.youtube.com/watch?v=GxmfcnU3feo">
+                  {t("hero.watchVideo")}
+                </a>
               </button>
             </div>
           </div>
